@@ -1,0 +1,12 @@
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
