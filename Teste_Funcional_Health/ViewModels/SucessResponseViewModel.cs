@@ -2,7 +2,7 @@
 {
     public class SucessResponseViewModel
     {
-        public string Menssagem { get; set; }
+        public string Mensagem { get; set; }
         public object retorno { get; set; }
 
     }

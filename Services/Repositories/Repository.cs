@@ -18,9 +18,6 @@ namespace Services.Repositories
         {
             this.Context = Context;
             Db = Context.Set<T>();
-
-            //Atualiza o banco de dados sempre que encontrar uma migration que ele ainda não implementou sem ter que ficar dando o comando update-database
-            this.Context.Database.Migrate();
         }
 
         public async Task<T> GetWithExpression(Expression<Func<T, bool>> expression)

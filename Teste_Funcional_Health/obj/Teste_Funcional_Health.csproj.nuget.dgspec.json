@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Teste_Funcional_Health\\Teste_Funcional_Health.csproj": {}
+    "D:\\Repositórios\\TesteHealth\\Teste_Funcional_Health\\Teste_Funcional_Health.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Data\\Data.csproj": {
+    "D:\\Repositórios\\TesteHealth\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\Repositórios\\TesteHealth\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Data\\Data.csproj",
+        "projectPath": "D:\\Repositórios\\TesteHealth\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Data\\obj\\",
+        "outputPath": "D:\\Repositórios\\TesteHealth\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -23,15 +23,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -89,87 +89,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Services\\Services.csproj": {
+    "D:\\Repositórios\\TesteHealth\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\Repositórios\\TesteHealth\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Services\\Services.csproj",
+        "projectPath": "D:\\Repositórios\\TesteHealth\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Services\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Data\\Data.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Teste_Funcional_Health\\Teste_Funcional_Health.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Teste_Funcional_Health\\Teste_Funcional_Health.csproj",
-        "projectName": "Teste_Funcional_Health",
-        "projectPath": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Teste_Funcional_Health\\Teste_Funcional_Health.csproj",
-        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Teste_Funcional_Health\\obj\\",
+        "outputPath": "D:\\Repositórios\\TesteHealth\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -191,11 +122,80 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Data\\Data.csproj"
+              "D:\\Repositórios\\TesteHealth\\Data\\Data.csproj": {
+                "projectPath": "D:\\Repositórios\\TesteHealth\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repositórios\\TesteHealth\\Teste_Funcional_Health\\Teste_Funcional_Health.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repositórios\\TesteHealth\\Teste_Funcional_Health\\Teste_Funcional_Health.csproj",
+        "projectName": "Teste_Funcional_Health",
+        "projectPath": "D:\\Repositórios\\TesteHealth\\Teste_Funcional_Health\\Teste_Funcional_Health.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositórios\\TesteHealth\\Teste_Funcional_Health\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Repositórios\\TesteHealth\\Data\\Data.csproj": {
+                "projectPath": "D:\\Repositórios\\TesteHealth\\Data\\Data.csproj"
               },
-              "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\Pichau\\Desktop\\Teste_Funcional_Health\\Services\\Services.csproj"
+              "D:\\Repositórios\\TesteHealth\\Services\\Services.csproj": {
+                "projectPath": "D:\\Repositórios\\TesteHealth\\Services\\Services.csproj"
               }
             }
           }
@@ -263,7 +263,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -20,7 +20,9 @@ namespace Services.Repositories
 
         public async Task<string[]> CadastrarUsuario(Usuario model)
         {
-            var result = await UserManager.CreateAsync(model);
+            model.UserName = model.Email;
+
+            var result = await UserManager.CreateAsync(model, model.PasswordHash);
 
             if (!result.Succeeded)
             {
@@ -49,18 +51,22 @@ namespace Services.Repositories
 
             var result = await SignInManager.PasswordSignInAsync(FindedUser, Senha, false, false);
 
-            if (!result.IsNotAllowed)
+            if (result.IsNotAllowed)
             {
                 return "Este usuário ainda não está autorizado a acessar a plataforma";
             }
 
-            else if (!result.IsLockedOut)
+            else if (result.IsLockedOut)
             {
                 return "Este usuário está bloqueado do sistema";
             }
 
-            return "Senha incorreta";
+            else if (!result.Succeeded)
+            {
+                return "Senha incorreta";
+            }
 
+            return null;
         }
     }
 }

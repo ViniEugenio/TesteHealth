@@ -10,3 +10,15 @@ C:\Users\Pichau\Desktop\Teste_Funcional_Health\Services\obj\Debug\netcoreapp3.1\
 C:\Users\Pichau\Desktop\Teste_Funcional_Health\Services\bin\Debug\netcoreapp3.1\Data.dll
 C:\Users\Pichau\Desktop\Teste_Funcional_Health\Services\bin\Debug\netcoreapp3.1\Data.pdb
 C:\Users\Pichau\Desktop\Teste_Funcional_Health\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete
+D:\Repositórios\TesteHealth\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+D:\Repositórios\TesteHealth\Services\bin\Debug\netcoreapp3.1\Services.dll
+D:\Repositórios\TesteHealth\Services\bin\Debug\netcoreapp3.1\Services.pdb
+D:\Repositórios\TesteHealth\Services\bin\Debug\netcoreapp3.1\Data.dll
+D:\Repositórios\TesteHealth\Services\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Repositórios\TesteHealth\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+D:\Repositórios\TesteHealth\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+D:\Repositórios\TesteHealth\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+D:\Repositórios\TesteHealth\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+D:\Repositórios\TesteHealth\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete
+D:\Repositórios\TesteHealth\Services\obj\Debug\netcoreapp3.1\Services.dll
+D:\Repositórios\TesteHealth\Services\obj\Debug\netcoreapp3.1\Services.pdb

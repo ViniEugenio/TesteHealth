@@ -1,4 +1,5 @@
 ﻿using Data.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Services.Interfaces;
 using System.Threading.Tasks;
@@ -6,6 +7,8 @@ using Teste_Funcional_Health.ViewModels;
 
 namespace Teste_Funcional_Health.Controllers
 {
+    [Route("api/transacoes")]
+    [Authorize]
     public class TransacoesController : MainController
     {
         private readonly IContaRepository ContaRepository;
@@ -53,7 +56,7 @@ namespace Teste_Funcional_Health.Controllers
 
             return GiveResponse(new SucessResponseViewModel()
             {
-                Menssagem = "Saque realizado com sucesso!",
+                Mensagem = "Saque realizado com sucesso!",
                 retorno = new
                 {
                     ValorSaque = model.Valor,
@@ -93,7 +96,7 @@ namespace Teste_Funcional_Health.Controllers
 
             return GiveResponse(new SucessResponseViewModel()
             {
-                Menssagem = "Depósito realizado com sucesso!",
+                Mensagem = "Depósito realizado com sucesso!",
                 retorno = new
                 {
                     ValorDeposito = model.Valor,
@@ -120,7 +123,7 @@ namespace Teste_Funcional_Health.Controllers
 
             return GiveResponse(new SucessResponseViewModel()
             {
-                Menssagem = "Saldo recuperado com sucesso!",
+                Mensagem = "Saldo recuperado com sucesso!",
                 retorno = new
                 {
                     SaldoDisponivel = FindedConta.Saldo

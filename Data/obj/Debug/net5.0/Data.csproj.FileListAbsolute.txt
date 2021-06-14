@@ -1,0 +1,15 @@
+D:\Repositórios\TesteHealth\Data\bin\Debug\net5.0\Data.deps.json
+D:\Repositórios\TesteHealth\Data\bin\Debug\net5.0\Data.runtimeconfig.json
+D:\Repositórios\TesteHealth\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
+D:\Repositórios\TesteHealth\Data\bin\Debug\net5.0\Data.dll
+D:\Repositórios\TesteHealth\Data\bin\Debug\net5.0\ref\Data.dll
+D:\Repositórios\TesteHealth\Data\bin\Debug\net5.0\Data.pdb
+D:\Repositórios\TesteHealth\Data\obj\Debug\net5.0\Data.csprojAssemblyReference.cache
+D:\Repositórios\TesteHealth\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositórios\TesteHealth\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+D:\Repositórios\TesteHealth\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+D:\Repositórios\TesteHealth\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+D:\Repositórios\TesteHealth\Data\obj\Debug\net5.0\Data.dll
+D:\Repositórios\TesteHealth\Data\obj\Debug\net5.0\ref\Data.dll
+D:\Repositórios\TesteHealth\Data\obj\Debug\net5.0\Data.pdb
+D:\Repositórios\TesteHealth\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache

@@ -10,3 +10,15 @@ C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data
 C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data.pdb
 C:\Users\Pichau\Desktop\Teste_Funcional_Health\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+D:\Repositórios\TesteHealth\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+D:\Repositórios\TesteHealth\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+D:\Repositórios\TesteHealth\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+D:\Repositórios\TesteHealth\Data\bin\Debug\netcoreapp3.1\Data.dll
+D:\Repositórios\TesteHealth\Data\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Repositórios\TesteHealth\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+D:\Repositórios\TesteHealth\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+D:\Repositórios\TesteHealth\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+D:\Repositórios\TesteHealth\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+D:\Repositórios\TesteHealth\Data\obj\Debug\netcoreapp3.1\Data.dll
+D:\Repositórios\TesteHealth\Data\obj\Debug\netcoreapp3.1\Data.pdb
+D:\Repositórios\TesteHealth\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache

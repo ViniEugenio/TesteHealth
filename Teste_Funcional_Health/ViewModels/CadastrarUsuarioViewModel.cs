@@ -12,6 +12,13 @@ namespace Teste_Funcional_Health.ViewModels
 
         [Required(ErrorMessage = "Por favor informe o seu email")]
         [DataType(DataType.EmailAddress, ErrorMessage = "Por favor informe um email válido")]
-        public string UserName { get; set; }
+        public string Email { get; set; }
+
+        [Required(ErrorMessage = "Por favor informe sua senha")]
+        public string PasswordHash { get; set; }
+
+        [Required(ErrorMessage = "Por favor Confirme a sua senha")]
+        [Compare("PasswordHash")]
+        public string ConfirmarSenha { get; set; }
     }
 }

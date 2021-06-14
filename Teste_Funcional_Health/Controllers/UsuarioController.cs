@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using Data.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Options;
 using Services.Interfaces;
+using System.Linq;
 using System.Threading.Tasks;
 using Teste_Funcional_Health.Extensions;
 using Teste_Funcional_Health.Helpers;
@@ -11,7 +13,7 @@ using Teste_Funcional_Health.ViewModels;
 
 namespace Teste_Funcional_Health.Controllers
 {
-    [Route("usuario")]
+    [Route("api/usuario")]
     public class UsuarioController : MainController
     {
         private readonly IUsuarioRepository UsuarioRepository;
@@ -47,26 +49,19 @@ namespace Teste_Funcional_Health.Controllers
 
             return GiveResponse(new SucessResponseViewModel()
             {
-                Menssagem = "O usuário foi logado com sucesso!",
+                Mensagem = "O usuário foi logado com sucesso!",
                 retorno = JWT
             });
 
         }
 
         [HttpPost("CadastrarUsuario")]
-        public async Task<IActionResult> CadastrarUsuario([FromBody]CadastrarUsuarioViewModel model)
+        public async Task<IActionResult> CadastrarUsuario([FromBody] CadastrarUsuarioViewModel model)
         {
-
-            var FindedUsuario = await UsuarioRepository.FindByEmail(model.UserName);
-
-            if (FindedUsuario != null)
-            {
-                AdicionarErro("O email informado já está sendo usado por outro usuário, por favor informe outro email e tente novamente");
-            }
 
             var result = await UsuarioRepository.CadastrarUsuario(Mapper.Map<Usuario>(model));
 
-            if (result.Length > 0)
+            if (result != null)
             {
                 AdicionarErros(result);
             }
@@ -76,17 +71,37 @@ namespace Teste_Funcional_Health.Controllers
                 return GiveResponse();
             }
 
-            FindedUsuario = await UsuarioRepository.FindByEmail(model.UserName);
+            var FindedUsuario = await UsuarioRepository.FindByEmail(model.Email);
             string NumeroConta = await ContaRepository.CadastrarConta(FindedUsuario.Id);
 
             return GiveResponse(new SucessResponseViewModel()
             {
-                Menssagem = "Usuário foi cadastrado com sucesso!",
+                Mensagem = "Usuário foi cadastrado com sucesso!",
                 retorno = new
                 {
                     NomeUsuario = FindedUsuario.Nome + " " + FindedUsuario.SobreNome,
                     Email = FindedUsuario.Email,
                     NumeroConta
+                }
+            });
+        }
+
+        [HttpGet("DadosUsuarios")]
+        public async Task<IActionResult> DadosUsuarios()
+        {
+            return GiveResponse(new SucessResponseViewModel()
+            {
+                Mensagem = "Dados dos usuários",
+                retorno = new
+                {
+                    QuantidadeUsuario = UsuarioRepository.GetAllWithExpression(usuario => usuario.Status).Result.Count(),
+                    Usuarios = UsuarioRepository.GetAllWithExpression(usuario => usuario.Status).Result.Select(usuario => new DadosUsuarioViewModel()
+                    {
+                        Nome = usuario.Nome + " "+usuario.SobreNome,
+                        Email = usuario.Email,
+                        NumeroConta = ContaRepository.GetWithExpression(conta=>conta.IdUsuario.Equals(usuario.Id)).Result.Numero,
+                        Saldo = " R$ " + ContaRepository.GetWithExpression(conta => conta.IdUsuario.Equals(usuario.Id)).Result.Saldo
+                    })
                 }
             });
         }
