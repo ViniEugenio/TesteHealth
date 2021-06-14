@@ -24,7 +24,7 @@ namespace Teste_Funcional_Health.Controllers
                         new Dictionary<string, string[]>
                         {
                             {
-                                "Mensagens de Erro",
+                                "Mensagens",
                                 Erros.ToArray()
                             }
                         }

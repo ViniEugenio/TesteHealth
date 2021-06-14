@@ -11,7 +11,7 @@ namespace Data
 
         public Context()
         {
-            ConnectionString = "Server=localhost; Port=52000; Database=FH_Bank; User Id=root; Password=teste123; Pooling=false";
+            ConnectionString = "Server=localhost; Port=52000; Database=FH_Bank; User Id=root; Password=teste123; Pooling=false;";
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
